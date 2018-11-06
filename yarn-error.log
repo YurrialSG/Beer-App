@@ -1,0 +1,102 @@
+Arguments: 
+  C:\Program Files (x86)\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\binaries\php\php_runningversion;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\Yuri\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Users\Yuri\AppData\Local\Microsoft\WindowsApps;C:\Users\Yuri\AppData\Roaming\npm;C:\Users\Yuri\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  8.12.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000902.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:120793:19)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:106:13)
+      at ClientRequest.emit (events.js:208:7)
+      at TLSSocket.emitTimeout (_http_client.js:707:34)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:106:13)
+      at TLSSocket.emit (events.js:208:7)
+      at TLSSocket.Socket._onTimeout (net.js:422:8)
+      at ontimeout (timers.js:498:11)
+
+npm manifest: 
+  {
+    "name": "beer-app",
+    "version": "1.0.0",
+    "description": "A Vue.js project",
+    "author": "Dani Vijay <danimvijay@gmail.com>",
+    "private": true,
+    "scripts": {
+      "dev": "node build/dev-server.js",
+      "start": "node build/dev-server.js",
+      "build": "node build/build.js"
+    },
+    "dependencies": {
+      "axios": "0.18.0",
+      "vue": "^2.5.2",
+      "vue-router": "^3.0.1",
+      "vuetify": "^1.0.0",
+      "vuex": "3.0.1",
+      "vuex-persistedstate": "2.5.4"
+    },
+    "devDependencies": {
+      "autoprefixer": "^7.1.5",
+      "babel-core": "^6.26.0",
+      "sw-precache-webpack-plugin": "^0.11.4",
+      "babel-loader": "^7.1.2",
+      "babel-plugin-transform-runtime": "^6.23.0",
+      "babel-preset-env": "^1.6.0",
+      "babel-preset-stage-2": "^6.24.1",
+      "babel-register": "^6.26.0",
+      "chalk": "^2.1.0",
+      "connect-history-api-fallback": "^1.4.0",
+      "copy-webpack-plugin": "^4.1.1",
+      "css-loader": "^0.28.7",
+      "cssnano": "^3.10.0",
+      "eventsource-polyfill": "^0.9.6",
+      "express": "^4.16.2",
+      "extract-text-webpack-plugin": "^3.0.0",
+      "file-loader": "^1.1.5",
+      "friendly-errors-webpack-plugin": "^1.6.1",
+      "html-webpack-plugin": "^2.30.1",
+      "http-proxy-middleware": "^0.17.4",
+      "webpack-bundle-analyzer": "^2.9.0",
+      "semver": "^5.4.1",
+      "shelljs": "^0.7.8",
+      "opn": "^5.1.0",
+      "optimize-css-assets-webpack-plugin": "^3.2.0",
+      "ora": "^1.3.0",
+      "rimraf": "^2.6.2",
+      "url-loader": "^0.6.2",
+      "vue-loader": "^13.3.0",
+      "vue-style-loader": "^3.0.3",
+      "vue-template-compiler": "^2.5.2",
+      "webpack": "^3.7.1",
+      "webpack-dev-middleware": "^1.12.0",
+      "webpack-hot-middleware": "^2.19.1",
+      "webpack-merge": "^4.1.0",
+      "uglify-es": "^3.1.3"
+    },
+    "engines": {
+      "node": ">= 4.0.0",
+      "npm": ">= 3.0.0"
+    },
+    "browserslist": [
+      "> 1%",
+      "last 2 versions",
+      "not ie <= 8"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
